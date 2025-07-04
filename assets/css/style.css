@@ -5,11 +5,27 @@
     font-family: sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+.color{
+    width: 600px;
     height: 300px;
+    background-color: #AEFB3C;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 30px;
+    
+}
+
+.black{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    text-align: center;
+    padding: 100px 0;
     background-color: #ED8034;
     font-size: 35px;
     border-bottom: 1px solid black;
@@ -17,8 +33,13 @@ header {
 
 section {
     background-color: #FFB123;
-    display: flex;
-    padding: 10px;
+    text-align: center;
+
+}
+
+section p{
+    width: 40%;
+    display: inline-block;
 }
 
 article {
@@ -102,9 +123,7 @@ article>.articleBox {
     background-color: #800080;
     border-radius: 50%;
     border: 10px solid #FE0000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ 
 
 }
 
@@ -118,8 +137,8 @@ article>.articleBox {
 }
 
 
-.taskThird>.taskThird__flower {
-    display: flex;
+.taskThird__flower > div{
+    display: inline-block;
 }
 
 .taskThird>.taskThird__flower .taskThird__flower_1 {
@@ -151,10 +170,14 @@ article>.articleBox {
 }
 
 
-.taskThird__circle {
+/* .taskThird__circle {
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.taskThird__circle > div{
+    display: inline-block;
 }
 
 .taskThird__circle .taskThird__circle_1 {
